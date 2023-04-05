@@ -15,6 +15,9 @@ class HelloWorld {
             temp = temp / 10;
         }
         k = k % d;
+        if(k < 0){
+            k = k + d;
+        }
         int pow = (int)(Math.pow(10,k));
         int np = (int)(Math.pow(10,d-k));
         
