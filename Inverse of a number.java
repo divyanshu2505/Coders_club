@@ -6,7 +6,7 @@ class HelloWorld {
         // System.out.println("Hello, World!");
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
-        
+       
         int fv = 0;
         int ans = 0;
         while(n != 0){
